@@ -1,0 +1,26 @@
+
+               - A collection of Big Data tools using Hadoop and Cloud
+
+1. Please reference the INSTALL file to setup your development environment first.
+
+--------------------------------------------------------------------
+Source Structure Layout
+--------------------------------------------------------------------
+|- src\
+   |- main\
+      |- java\                     : Production Java source 
+      |- resource\                 : Production resources
+      |- webapp\                   : Webapp files for Production
+   |- test\
+      |- java\                     : Test Java source 
+      |- resource\                 : Test resources 
+      |- webapp\                   : Webapp files for Testing
+
+
+'mvn clean'                        -- Clean the project environment
+'mvn package'                      -- Generate the binary bits and create JAR file
+
+ The Output will look like this
+ -------------------------------------------
+ ./target/olefant-<VERSION>.jar
+ -------------------------------------------
