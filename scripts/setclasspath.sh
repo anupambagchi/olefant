@@ -1,4 +1,7 @@
 CLASSPATH=$SCRIPTPATH/../target/olefant-1.0.jar:\
+/usr/lib/hadoop/*:\
+/usr/lib/hadoop/client/*:\
+/usr/share/java/*:\
 $SCRIPTPATH/lib/JSON-1.0.jar:\
 $SCRIPTPATH/lib/junit-4.9.jar:\
 $SCRIPTPATH/lib/log4j.jar:\
@@ -8,10 +11,7 @@ $SCRIPTPATH/lib/slf4j-api-1.6.1.jar:\
 $SCRIPTPATH/lib/guava-13.0.1.jar:\
 $SCRIPTPATH/lib/mahout-math-0.7.jar:\
 $SCRIPTPATH/lib/uncommons-maths-1.2.2a.jar:\
-$SCRIPTPATH/lib/hadoop-common-2.0.0-cdh4.2.1.jar:\
-$SCRIPTPATH/lib/hadoop-mapreduce-client-core-2.0.0-cdh4.2.1.jar:\
 $SCRIPTPATH/lib/commons-logging-1.1.1.jar:\
 $SCRIPTPATH/lib/commons-cli-1.2.jar:\
 $SCRIPTPATH/lib/commons-configuration-1.6.jar:\
 $SCRIPTPATH/lib/commons-lang-2.5.jar:\
-$SCRIPTPATH/lib/hadoop-auth-2.0.0-cdh4.2.1.jar
