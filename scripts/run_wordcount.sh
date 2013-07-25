@@ -1,6 +1,6 @@
 WORKDIR=$HOME/Developer/olefant
 
-CLASSNAME=com.agilesoft.counter.WordCount
+CLASSNAME=com.hadooptraining.counter.WordCount
 
 JVM="-Xmn100M -Xms500M -Xmx500M"
 source $WORKDIR/scripts/setclasspath.sh

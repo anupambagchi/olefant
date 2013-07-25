@@ -1,6 +1,6 @@
 WORKDIR=$HOME/Developer/olefant
 
-CLASSNAME=com.agilesoft.recommender.evaluator.IREvaluatorIntro
+CLASSNAME=com.hadooptraining.recommender.evaluator.IREvaluatorIntro
 
 JVM="-Xmn100M -Xms500M -Xmx500M"
 source $WORKDIR/scripts/setclasspath.sh

@@ -1,6 +1,6 @@
 WORKDIR=$HOME/Developer/olefant
 
-CLASSNAME=com.agilesoft.counter.WordCountWithTools
+CLASSNAME=com.hadooptraining.counter.WordCountWithTools
 
 JVM="-Xmn100M -Xms500M -Xmx500M"
 echo Deleting old output directory...

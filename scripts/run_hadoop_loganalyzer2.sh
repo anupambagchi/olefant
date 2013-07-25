@@ -1,6 +1,6 @@
 WORKDIR=$HOME/Developer/olefant
 
-CLASSNAME=com.agilesoft.loganalyzer.genericwritable.LogProcessor
+CLASSNAME=com.hadooptraining.loganalyzer.genericwritable.LogProcessor
 
 JVM="-Xmn100M -Xms500M -Xmx500M"
 echo Deleting old file...

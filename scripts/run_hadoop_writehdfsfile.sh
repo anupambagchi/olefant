@@ -1,6 +1,6 @@
 WORKDIR=$HOME/Developer/olefant
 
-CLASSNAME=com.agilesoft.fileutil.HDFSJavaAPIDemo
+CLASSNAME=com.hadooptraining.fileutil.HDFSJavaAPIDemo
 
 JVM="-Xmn100M -Xms500M -Xmx500M"
 echo Deleting old file...
